@@ -12,9 +12,9 @@
     <artifactId>Singleton-Pattern</artifactId>
     <dependencies>
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
