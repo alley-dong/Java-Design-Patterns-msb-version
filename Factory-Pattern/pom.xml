@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Singleton-Pattern</artifactId>
-
+    <artifactId>Factory-Pattern</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

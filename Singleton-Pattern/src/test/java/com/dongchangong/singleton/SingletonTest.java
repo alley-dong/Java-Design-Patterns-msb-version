@@ -23,7 +23,7 @@ public class SingletonTest<S> {
     private final Supplier<S> singletonInstanceMethod;
 
     /**
-     * final修饰属性 需要在构造方法中初始化
+     * final修饰属性 需要在构造方法中初始化 或者 对属性进行赋值
      */
     public SingletonTest(Supplier<S> singletonInstanceMethod) {
         this.singletonInstanceMethod = singletonInstanceMethod;
