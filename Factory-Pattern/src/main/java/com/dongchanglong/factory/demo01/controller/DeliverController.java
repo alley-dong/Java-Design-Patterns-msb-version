@@ -2,7 +2,7 @@ package com.dongchanglong.factory.demo01.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.dongchanglong.factory.demo01.entity.AwardInfo;
-import com.dongchanglong.factory.demo01.entity.DiscountResult;
+import com.dongchanglong.factory.demo01.entity.Result;
 import com.dongchanglong.factory.demo01.entity.SmallGiftInfo;
 import com.dongchanglong.factory.demo01.service.DiscountService;
 import com.dongchanglong.factory.demo01.service.SmallGiftService;
@@ -24,7 +24,7 @@ public class DeliverController {
         if (awardInfo.getAwardType() == 1) {
             //打折券
             DiscountService discountService = new DiscountService();
-            DiscountResult result = discountService.sendDiscount(awardInfo.getUid(), awardInfo.getAwardNumber());
+            Result result = discountService.sendDiscount(awardInfo.getUid(), awardInfo.getAwardNumber());
             System.out.println("打折券发放成功!" + JSON.toJSON(result));
 
         } else if (awardInfo.getAwardType() == 2) {

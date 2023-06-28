@@ -3,10 +3,10 @@ package com.dongchanglong.factory.demo01.entity;
 import lombok.Data;
 
 /**
- * 打折券操作响应结果封装类
+ * 操作响应结果封装类
  */
 @Data
-public class DiscountResult {
+public class Result {
 
     /**
      * 状态码
@@ -18,7 +18,7 @@ public class DiscountResult {
      */
     private String message;
 
-    public DiscountResult(String status,String message){
+    public Result(String status, String message){
         this.status = status;
         this.message = message;
     }
