@@ -1,8 +1,8 @@
-package com.dongchanglong.factory.demo02.factory;
+package com.dongchanglong.factory.simpleFactory.factory;
 
-import com.dongchanglong.factory.demo02.service.FactoryService;
-import com.dongchanglong.factory.demo02.service.impl.DiscountServiceImpl;
-import com.dongchanglong.factory.demo02.service.impl.SmallGiftServiceImpl;
+import com.dongchanglong.factory.simpleFactory.service.FactoryService;
+import com.dongchanglong.factory.simpleFactory.service.impl.DiscountServiceImpl;
+import com.dongchanglong.factory.simpleFactory.service.impl.SmallGiftServiceImpl;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

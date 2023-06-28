@@ -1,6 +1,6 @@
-package com.dongchanglong.factory.demo02.factory;
+package com.dongchanglong.factory.simpleFactory.factory;
 
-import com.dongchanglong.factory.demo02.service.FactoryService;
+import com.dongchanglong.factory.simpleFactory.service.FactoryService;
 
 /**
  * 工厂类

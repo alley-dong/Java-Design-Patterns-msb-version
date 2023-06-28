@@ -1,4 +1,4 @@
-package com.dongchanglong.factory.demo02.entity;
+package com.dongchanglong.factory.simpleFactory.entity;
 
 import lombok.Data;
 
