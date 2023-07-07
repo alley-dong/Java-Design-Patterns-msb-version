@@ -1,3 +1,7 @@
+import com.dongchanglong.factory.methodFactory.factory.Blacksmith;
+import com.dongchanglong.factory.methodFactory.factory.ElfBlacksimth;
+import com.dongchanglong.factory.methodFactory.factory.OrcBlacksmith;
+import com.dongchanglong.factory.methodFactory.factory.WeaponType;
 import com.dongchanglong.factory.simpleFactory.entity.AwardInfo;
 import com.dongchanglong.factory.simpleFactory.entity.Result;
 import com.dongchanglong.factory.simpleFactory.factory.AwardType;
@@ -17,4 +21,13 @@ public class MyTest {
         Result instance = awardInfo.getInstance(new AwardInfo());
         System.out.println(instance);
     }
+
+     @Test
+    public void testYourMethodFactory() throws Exception {
+         Blacksmith blacksmith = WeaponType.getEnum("1");
+         assert blacksmith != null;
+         com.dongchanglong.factory.methodFactory.service.FactoryService methodInstance = blacksmith.getMethodInstance(WeaponType.ONE);
+         com.dongchanglong.factory.methodFactory.entity.Result instance = methodInstance.getInstance(new com.dongchanglong.factory.methodFactory.entity.AwardInfo());
+         System.out.println(instance);
+     }
 }
