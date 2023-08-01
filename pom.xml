@@ -11,6 +11,7 @@
     <modules>
         <module>Singleton-Pattern</module>
         <module>Factory-Pattern</module>
+        <module>Builder-Pattern</module>
     </modules>
 
     <dependencies>

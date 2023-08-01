@@ -25,6 +25,7 @@ public class Client {
         }
         /**
          * The factory method to create 抽象工厂 concrete objects.
+         * 代码报错的话 把Language leven改成jdk16
          */
         public static AppliancesFactory makeFactory(ProductType type) {
             return switch (type) {
