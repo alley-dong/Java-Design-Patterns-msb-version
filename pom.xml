@@ -13,6 +13,7 @@
         <module>Factory-Pattern</module>
         <module>Builder-Pattern</module>
         <module>Prototype-Pattern</module>
+        <module>Porxy-Pattern</module>
     </modules>
 
     <dependencies>
