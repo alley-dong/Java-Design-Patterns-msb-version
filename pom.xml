@@ -16,6 +16,7 @@
         <module>Porxy-Pattern</module>
         <module>Decorator-Pattern</module>
         <module>Bridge-Pattern</module>
+        <module>Adapter-Pattern</module>
     </modules>
 
     <dependencies>
