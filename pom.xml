@@ -19,6 +19,7 @@
         <module>Adapter-Pattern</module>
         <module>Facade-Pattern</module>
         <module>Composite-Pattern</module>
+        <module>Flyweight-Pattern</module>
     </modules>
 
     <dependencies>
