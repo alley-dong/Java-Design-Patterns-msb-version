@@ -20,6 +20,7 @@
         <module>Facade-Pattern</module>
         <module>Composite-Pattern</module>
         <module>Flyweight-Pattern</module>
+        <module>Observer-Pattern</module>
     </modules>
 
     <dependencies>
