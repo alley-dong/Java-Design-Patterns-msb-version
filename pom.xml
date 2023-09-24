@@ -21,6 +21,7 @@
         <module>Composite-Pattern</module>
         <module>Flyweight-Pattern</module>
         <module>Observer-Pattern</module>
+        <module>TemplateMethod-Pattern</module>
     </modules>
 
     <dependencies>
