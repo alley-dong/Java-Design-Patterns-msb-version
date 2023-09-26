@@ -38,5 +38,4 @@ public abstract class AbstractClassTemplate {
     void run(String key){
         step1(key);
     }
-
 }

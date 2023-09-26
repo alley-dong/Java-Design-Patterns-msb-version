@@ -1,5 +1,10 @@
 package com.dongchanglong.demo01;
 
+/**
+ * 子类
+ * @date 2023/9/24 15:49 
+ * @author DongCL
+ */
 public class ConcreteClassA extends AbstractClassTemplate{
     @Override
     void step3() {
