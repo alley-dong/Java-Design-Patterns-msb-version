@@ -23,6 +23,7 @@
         <module>Observer-Pattern</module>
         <module>TemplateMethod-Pattern</module>
         <module>Strategy-Pattern</module>
+        <module>ChainOfResponsibility-Pattern</module>
     </modules>
 
     <dependencies>
