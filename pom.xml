@@ -24,6 +24,7 @@
         <module>TemplateMethod-Pattern</module>
         <module>Strategy-Pattern</module>
         <module>ChainOfResponsibility-Pattern</module>
+        <module>State-Pattern</module>
     </modules>
 
     <dependencies>
