@@ -24,6 +24,7 @@
         <module>TemplateMethod-Pattern</module>
         <module>Strategy-Pattern</module>
         <module>ChainOfResponsibility-Pattern</module>
+        <module>Iterator-Pattern</module>
     </modules>
 
     <dependencies>
