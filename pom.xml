@@ -28,6 +28,7 @@
         <module>Iterator-Pattern</module>
         <module>Visitor-Pattern</module>
         <module>com.dongchanglong.demo01.Memento-Pattern</module>
+        <module>Command-Pattern</module>
     </modules>
 
     <dependencies>
