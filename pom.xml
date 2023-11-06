@@ -29,6 +29,7 @@
         <module>Visitor-Pattern</module>
         <module>com.dongchanglong.demo01.Memento-Pattern</module>
         <module>Command-Pattern</module>
+        <module>Interpreter-Pattern</module>
     </modules>
 
     <dependencies>
