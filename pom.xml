@@ -27,6 +27,7 @@
         <module>State-Pattern</module>
         <module>Iterator-Pattern</module>
         <module>Visitor-Pattern</module>
+        <module>Spring-Application</module>
     </modules>
 
     <dependencies>
