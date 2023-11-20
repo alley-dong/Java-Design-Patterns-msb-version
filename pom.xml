@@ -27,6 +27,10 @@
         <module>State-Pattern</module>
         <module>Iterator-Pattern</module>
         <module>Visitor-Pattern</module>
+        <module>com.dongchanglong.demo01.Memento-Pattern</module>
+        <module>Command-Pattern</module>
+        <module>Interpreter-Pattern</module>
+        <module>Mediator-Pattern</module>
         <module>Spring-Application</module>
     </modules>
 
