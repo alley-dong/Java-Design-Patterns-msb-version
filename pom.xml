@@ -32,6 +32,8 @@
         <module>Interpreter-Pattern</module>
         <module>Mediator-Pattern</module>
         <module>Spring-Application</module>
+        <module>SpringIoc</module>
+        <module>SpringIoc-Test</module>
     </modules>
 
     <dependencies>
@@ -41,6 +43,13 @@
             <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-beans -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>5.3.19</version>
+        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
